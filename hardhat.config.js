@@ -18,7 +18,7 @@ module.exports = {
   },
   contracts: {
     // Path to SepoliaToken.sol file
-    SepoliaToken: "./contracts/SepoliaToken.sol",
+    FinancialData: "./contracts/FinancialData.sol",
     Financial: "./contracts/Financial.sol"
 
   },
