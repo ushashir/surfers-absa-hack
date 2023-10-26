@@ -15,5 +15,11 @@ module.exports = {
       url: `https://sepolia.infura.io/v3/${INFURA_API_KEY}`,
       accounts: [SEPOLIA_PRIVATE_KEY]
     }
-  }
+  },
+  contracts: {
+    // Path to SepoliaToken.sol file
+    SepoliaToken: "./contracts/SepoliaToken.sol",
+    Financial: "./contracts/Financial.sol"
+
+  },
 };
